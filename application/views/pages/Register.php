@@ -26,20 +26,20 @@
     <?php echo form_open('Register/userRegister'); ?>
  
         <div class="form-group">
-            <label for="userFirstName">First Name</label>
-            <input type="text" class="form-control" id="userFirstName" placeholder="First Name" name="fname">
+            <label for="userFirstName1">First Name</label>
+            <input type="text" class="form-control" id="userFirstName1" placeholder="First Name" name="fname">
         </div><br>
         <div class="form-group">
-            <label for="userLastName">Last Name</label>
-            <input type="text" class="form-control" id="userLastName" placeholder="Last Name" name="lname">
+            <label for="userLastName1">Last Name</label>
+            <input type="text" class="form-control" id="userLastName1" placeholder="Last Name" name="lname">
         </div><br>
         <div class="form-group">
-            <label for="userEmail">Email address</label>
-            <input type="email" class="form-control" id="userEmail" placeholder="Email" name="email">
+            <label for="userEmail1">Email address</label>
+            <input type="email" class="form-control" id="userEmail1" placeholder="Email" name="email">
         </div><br>
         <div class="form-group">
-            <label for="userPassword">Password</label>
-            <input type="password" class="form-control" id="userPassword" placeholder="Password" name="password">
+            <label for="userPassword1">Password</label>
+            <input type="password" class="form-control" id="userPassword1" placeholder="Password" name="password">
         </div><br>
         <div class="form-group">
             <button type="submit" class="btn btn-success">Submit</button>
