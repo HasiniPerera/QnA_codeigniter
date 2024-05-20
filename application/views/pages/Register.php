@@ -4,31 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
-    <style>
-        .register-box {
-            background-color: #ffffff;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 50px auto;
-            max-width: 500px;
-        }
-        .form-group label {
-            font-weight: bold;
-        }
-        .btn-center {
-            display: block;
-            margin: 0 auto;
-            width: 50%;
-        }
-        .account-text {
-            color: black; /* White color for better visibility */
-        }
-    </style>
+
 </head>
 
 <body>

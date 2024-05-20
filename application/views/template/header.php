@@ -13,7 +13,7 @@
 
 <body class="p-3 mb-2 bg-primary text-white">
 
-    <nav class="navbar navbar-expand-lg" style="background-color: #1C82AD;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #668cff;">
         <div class="container-fluid">
             <a class="navbar-brand" href="<?php echo base_url(); ?>posts">aSkMe</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
