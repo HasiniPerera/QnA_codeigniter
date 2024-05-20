@@ -24,9 +24,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url(); ?>posts"><b>Questions</b></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url(); ?>about"><b>About</b></a>
-                    </li>
+
                     <?php if ($this->session->userdata('logged_in')) { ?>
                         
                         <li class="nav-item">
