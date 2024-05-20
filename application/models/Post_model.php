@@ -95,6 +95,12 @@ class Post_model extends CI_Model
         log_message('debug', $this->db->last_query());
     }
 
+    public function search_posts($query) {
+        $this->db->like('title', $query);
+        $this->db->or_like('body', $query);
+        $query = $this->db->get('posts');
+        return $query->result_array();
+    }
     // public function get_post_comments_count($post_id) {
     //     $this->db->where('post_id', $post_id);
     //     $this->db->from('comments');

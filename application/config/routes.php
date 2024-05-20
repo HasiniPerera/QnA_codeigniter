@@ -20,3 +20,4 @@ $route['login'] = 'login';
 $route['posts/vote_answer/(:num)/(:any)'] = 'posts/vote_answer/$1/$2';
 $route['posts/vote_question/(:num)/(:any)'] = 'posts/vote_question/$1/$2';
 
+$route['posts/search'] = 'posts/search';

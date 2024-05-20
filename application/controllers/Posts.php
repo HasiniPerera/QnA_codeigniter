@@ -120,5 +120,18 @@ class Posts extends CI_Controller {
         $count = $this->Answers_model->update_vote($answer_id, $type);
         echo json_encode(['count' => $count]);
     }
+
+    public function search() {
+        echo "Search method called"; // 
+        $this->load->model('Post_model');
+        $query = $this->input->get('q');
+        $data['posts'] = $this->Post_model->search_posts($query);
+        $data['title'] = 'Search Results';
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('posts/index', $data);
+        $this->load->view('templates/footer');
+    }
+
 }
 ?>
